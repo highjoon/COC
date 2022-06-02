@@ -10,6 +10,7 @@
     "server": "json-server ./json-server/mock-api.json --port 3005"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0"

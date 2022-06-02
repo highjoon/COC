@@ -1,14 +1,13 @@
 import type { NextPage } from "next";
-import { Header, Footer, Title } from "components/index";
+import { Header, Main } from "components";
 
 const Home: NextPage = () => {
   return (
     <>
       <Header />
       <main>
-        <Title />
+        <Main />
       </main>
-      <Footer />
     </>
   );
 };
