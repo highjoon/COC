@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
+
 {
   "root": true,
   "parser": "@typescript-eslint/parser",
@@ -19,18 +21,16 @@
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:react-hooks/recommended",
-    "plugin:prettier/recommended"
+    "plugin:jsx-a11y/recommended",
+    "prettier/prettier",
+    "plugin:import/recommended",
+    "next",
+    "next/core-web-vitals"
   ],
-  "plugins": ["react", "@typescript-eslint"],
+  "plugins": ["react", "@typescript-eslint", "react-hooks", "import", "simple-import-sort", "prettier", "jsx-a11y"],
   "rules": {
     "no-undef": "off",
-    "prettier/prettier": [
-      "warn",
-      {
-        "endOfLine": "auto"
-      }
-    ],
+    "prettier/prettier": "warn",
     "react-hooks/rules-of-hooks": "warn",
     "react-hooks/exhaustive-deps": "warn",
     "react/react-in-jsx-scope": "off",

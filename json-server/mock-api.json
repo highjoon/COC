@@ -1,0 +1,1979 @@
+{
+  "players":{
+    "#29LVR2YUV":[
+      {
+        "tag":"#29LVR2YUV",
+        "name":"Ramos",
+        "townHallLevel":13,
+        "townHallWeaponLevel":1,
+        "expLevel":164,
+        "trophies":3711,
+        "bestTrophies":3717,
+        "warStars":291,
+        "attackWins":9,
+        "defenseWins":1,
+        "builderHallLevel":9,
+        "versusTrophies":4106,
+        "bestVersusTrophies":4469,
+        "versusBattleWins":1426,
+        "role":"member",
+        "warPreference":"in",
+        "donations":104,
+        "donationsReceived":320,
+        "clan":{
+          "tag":"#2L2LUUVYR",
+          "name":"나뭇잎마을",
+          "clanLevel":12,
+          "badgeUrls":{
+            "small":"https://api-assets.clashofclans.com/badges/70/yuQATTFW4zOtIOwSi3tE3N2cDdauuZn2LdIfVOHkkVQ.png",
+            "large":"https://api-assets.clashofclans.com/badges/512/yuQATTFW4zOtIOwSi3tE3N2cDdauuZn2LdIfVOHkkVQ.png",
+            "medium":"https://api-assets.clashofclans.com/badges/200/yuQATTFW4zOtIOwSi3tE3N2cDdauuZn2LdIfVOHkkVQ.png"
+          }
+        },
+        "league":{
+          "id":29000017,
+          "name":"Champion League II",
+          "iconUrls":{
+            "small":"https://api-assets.clashofclans.com/leagues/72/kLWSSyq7vJiRiCantiKCoFuSJOxief6R1ky6AyfB8q0.png",
+            "tiny":"https://api-assets.clashofclans.com/leagues/36/kLWSSyq7vJiRiCantiKCoFuSJOxief6R1ky6AyfB8q0.png",
+            "medium":"https://api-assets.clashofclans.com/leagues/288/kLWSSyq7vJiRiCantiKCoFuSJOxief6R1ky6AyfB8q0.png"
+          }
+        },
+        "achievements":[
+          {
+            "name":"Bigger Coffers",
+            "stars":3,
+            "value":13,
+            "target":10,
+            "info":"Upgrade a Gold Storage to level 10",
+            "completionInfo":"Highest Gold Storage level: 13",
+            "village":"home"
+          },
+          {
+            "name":"Get those Goblins!",
+            "stars":3,
+            "value":155,
+            "target":150,
+            "info":"Win 150 Stars on the Campaign Map",
+            "completionInfo":"Stars in Campaign Map: 155",
+            "village":"home"
+          },
+          {
+            "name":"Bigger & Better",
+            "stars":3,
+            "value":13,
+            "target":8,
+            "info":"Upgrade Town Hall to level 8",
+            "completionInfo":"Current Town Hall level: 13",
+            "village":"home"
+          },
+          {
+            "name":"Nice and Tidy",
+            "stars":3,
+            "value":3478,
+            "target":500,
+            "info":"Remove 500 obstacles (trees, rocks, bushes)",
+            "completionInfo":"Total obstacles removed: 3478",
+            "village":"home"
+          },
+          {
+            "name":"Discover New Troops",
+            "stars":3,
+            "value":1,
+            "target":1,
+            "info":"Unlock Dragon in the Barracks",
+            "completionInfo":null,
+            "village":"home"
+          },
+          {
+            "name":"Gold Grab",
+            "stars":3,
+            "value":915584436,
+            "target":100000000,
+            "info":"Steal 100000000 gold",
+            "completionInfo":"Total Gold looted: 915584436",
+            "village":"home"
+          },
+          {
+            "name":"Elixir Escapade",
+            "stars":3,
+            "value":926416533,
+            "target":100000000,
+            "info":"Steal 100000000 elixir",
+            "completionInfo":"Total Elixir looted: 926416533",
+            "village":"home"
+          },
+          {
+            "name":"Sweet Victory!",
+            "stars":3,
+            "value":3717,
+            "target":1250,
+            "info":"Achieve a total of 1250 trophies in Multiplayer battles",
+            "completionInfo":"Trophy record: 3717",
+            "village":"home"
+          },
+          {
+            "name":"Empire Builder",
+            "stars":3,
+            "value":8,
+            "target":4,
+            "info":"Upgrade Clan Castle to level 4",
+            "completionInfo":"Current Clan Castle level: 8",
+            "village":"home"
+          },
+          {
+            "name":"Wall Buster",
+            "stars":3,
+            "value":34492,
+            "target":2000,
+            "info":"Destroy 2000 Walls in Multiplayer battles",
+            "completionInfo":"Total walls destroyed: 34492",
+            "village":"home"
+          },
+          {
+            "name":"Humiliator",
+            "stars":2,
+            "value":1541,
+            "target":2000,
+            "info":"Destroy 2000 Town Halls in Multiplayer battles",
+            "completionInfo":"Total Town Halls destroyed: 1541",
+            "village":"home"
+          },
+          {
+            "name":"Union Buster",
+            "stars":3,
+            "value":6143,
+            "target":2500,
+            "info":"Destroy 2500 Builder's Huts in Multiplayer battles",
+            "completionInfo":"Total Builder's Huts destroyed: 6143",
+            "village":"home"
+          },
+          {
+            "name":"Conqueror",
+            "stars":2,
+            "value":1870,
+            "target":5000,
+            "info":"Win 5000 Multiplayer battles",
+            "completionInfo":"Total multiplayer battles won: 1870",
+            "village":"home"
+          },
+          {
+            "name":"Unbreakable",
+            "stars":2,
+            "value":482,
+            "target":5000,
+            "info":"Successfully defend against 5000 attacks",
+            "completionInfo":"Total defenses won: 482",
+            "village":"home"
+          },
+          {
+            "name":"Friend in Need",
+            "stars":3,
+            "value":25397,
+            "target":25000,
+            "info":"Donate 25000 capacity worth of reinforcements to Clanmates",
+            "completionInfo":"Total capacity donated: 25397",
+            "village":"home"
+          },
+          {
+            "name":"Mortar Mauler",
+            "stars":3,
+            "value":5415,
+            "target":5000,
+            "info":"Destroy 5000 Mortars in Multiplayer battles",
+            "completionInfo":"Total Mortars destroyed: 5415",
+            "village":"home"
+          },
+          {
+            "name":"Heroic Heist",
+            "stars":3,
+            "value":6538366,
+            "target":1000000,
+            "info":"Steal 1000000 Dark Elixir",
+            "completionInfo":"Total Dark Elixir looted: 6538366",
+            "village":"home"
+          },
+          {
+            "name":"League All-Star",
+            "stars":3,
+            "value":17,
+            "target":1,
+            "info":"Become a Champion!",
+            "completionInfo":null,
+            "village":"home"
+          },
+          {
+            "name":"X-Bow Exterminator",
+            "stars":3,
+            "value":2946,
+            "target":2500,
+            "info":"Destroy 2500 X-Bows in Multiplayer battles",
+            "completionInfo":"Total X-Bows destroyed: 2946",
+            "village":"home"
+          },
+          {
+            "name":"Firefighter",
+            "stars":2,
+            "value":1491,
+            "target":5000,
+            "info":"Destroy 5000 Inferno Towers in Multiplayer battles",
+            "completionInfo":"Total Inferno Towers destroyed: 1491",
+            "village":"home"
+          },
+          {
+            "name":"War Hero",
+            "stars":2,
+            "value":291,
+            "target":1000,
+            "info":"Score 1000 Stars for your clan in Clan War battles",
+            "completionInfo":"Total Stars scored for clan in Clan War battles: 291",
+            "village":"home"
+          },
+          {
+            "name":"Clan War Wealth",
+            "stars":3,
+            "value":383481520,
+            "target":100000000,
+            "info":"Collect 100000000 gold from the Clan Castle",
+            "completionInfo":"Total gold collected in Clan War bonuses: 383481520",
+            "village":"home"
+          },
+          {
+            "name":"Anti-Artillery",
+            "stars":2,
+            "value":533,
+            "target":2000,
+            "info":"Destroy 2000 Eagle Artilleries in Multiplayer battles",
+            "completionInfo":"Total Eagle Artilleries destroyed: 533",
+            "village":"home"
+          },
+          {
+            "name":"Sharing is caring",
+            "stars":1,
+            "value":1006,
+            "target":2000,
+            "info":"Donate 2000 spell storage capacity worth of spells",
+            "completionInfo":"Total spell capacity donated: 1006",
+            "village":"home"
+          },
+          {
+            "name":"Keep Your Account Safe!",
+            "stars":0,
+            "value":0,
+            "target":1,
+            "info":"Protect your village by connecting to a social network",
+            "completionInfo":"Completed!",
+            "village":"home"
+          },
+          {
+            "name":"Master Engineering",
+            "stars":3,
+            "value":9,
+            "target":8,
+            "info":"Upgrade Builder Hall to level 8",
+            "completionInfo":"Current Builder Hall level: 9",
+            "village":"builderBase"
+          },
+          {
+            "name":"Next Generation Model",
+            "stars":3,
+            "value":1,
+            "target":1,
+            "info":"Unlock Super P.E.K.K.A in the Builder Barracks",
+            "completionInfo":null,
+            "village":"builderBase"
+          },
+          {
+            "name":"Un-Build It",
+            "stars":2,
+            "value":1978,
+            "target":2000,
+            "info":"Destroy 2000 Builder Halls in Versus battles",
+            "completionInfo":"Total Builder Halls destroyed: 1978",
+            "village":"builderBase"
+          },
+          {
+            "name":"Champion Builder",
+            "stars":3,
+            "value":4469,
+            "target":3000,
+            "info":"Achieve a total of 3000 trophies in Versus battles",
+            "completionInfo":"Versus Trophy record: 4469",
+            "village":"builderBase"
+          },
+          {
+            "name":"High Gear",
+            "stars":3,
+            "value":3,
+            "target":3,
+            "info":"Gear Up 3 buildings using the Master Builder",
+            "completionInfo":"Total buildings geared up: 3",
+            "village":"builderBase"
+          },
+          {
+            "name":"Hidden Treasures",
+            "stars":3,
+            "value":1,
+            "target":1,
+            "info":"Rebuild Battle Machine",
+            "completionInfo":null,
+            "village":"builderBase"
+          },
+          {
+            "name":"Games Champion",
+            "stars":1,
+            "value":34275,
+            "target":50000,
+            "info":"Earn 50000 points in Clan Games",
+            "completionInfo":"Total Clan Games points: 34275",
+            "village":"home"
+          },
+          {
+            "name":"Dragon Slayer",
+            "stars":0,
+            "value":0,
+            "target":1,
+            "info":"Slay the Giant Dragon",
+            "completionInfo":null,
+            "village":"home"
+          },
+          {
+            "name":"War League Legend",
+            "stars":1,
+            "value":71,
+            "target":100,
+            "info":"Score 100 Stars for your clan in War League battles",
+            "completionInfo":"Total Stars scored for clan in War League battles: 71",
+            "village":"home"
+          },
+          {
+            "name":"Keep Your Account Safe!",
+            "stars":0,
+            "value":0,
+            "target":1,
+            "info":"Connect your account to Supercell ID for safe keeping.",
+            "completionInfo":"Completed!",
+            "village":"home"
+          },
+          {
+            "name":"Well Seasoned",
+            "stars":3,
+            "value":53500,
+            "target":50000,
+            "info":"Earn 50000 points in Season Challenges",
+            "completionInfo":"Total Season Challenges points: 53500",
+            "village":"home"
+          },
+          {
+            "name":"Shattered and Scattered",
+            "stars":0,
+            "value":9,
+            "target":40,
+            "info":"Destroy 40 Scattershots in Multiplayer battles",
+            "completionInfo":"Total Scattershots destroyed: 9",
+            "village":"home"
+          },
+          {
+            "name":"Not So Easy This Time",
+            "stars":2,
+            "value":420,
+            "target":2000,
+            "info":"Destroy 2000 weaponized Town Halls in Multiplayer battles",
+            "completionInfo":"Weaponized Town Halls destroyed: 420",
+            "village":"home"
+          },
+          {
+            "name":"Bust This!",
+            "stars":0,
+            "value":0,
+            "target":25,
+            "info":"Destroy 25 weaponized Builder's Huts in Multiplayer battles",
+            "completionInfo":"Total weaponized Builder's Huts destroyed: 0",
+            "village":"home"
+          },
+          {
+            "name":"Superb Work",
+            "stars":1,
+            "value":54,
+            "target":100,
+            "info":"Boost a Super Troop 100 times",
+            "completionInfo":"Total times Super Troops boosted: 54",
+            "village":"home"
+          },
+          {
+            "name":"Siege Sharer",
+            "stars":1,
+            "value":242,
+            "target":1000,
+            "info":"Donate 1000 Siege Machines",
+            "completionInfo":"Total Siege Machines donated: 242",
+            "village":"home"
+          },
+          {
+            "name":"Aggressive Capitalism",
+            "stars":1,
+            "value":21720,
+            "target":250000,
+            "info":"Loot 250000 Capital Gold during Raid attacks",
+            "completionInfo":"Total Capital Gold looted: 21720",
+            "village":"home"
+          },
+          {
+            "name":"Most Valuable Clanmate",
+            "stars":1,
+            "value":41386,
+            "target":500000,
+            "info":"Contribute 500000 Capital Gold to upgrades in the Clan Capital",
+            "completionInfo":"Total Capital Gold contributed: 41386",
+            "village":"home"
+          }
+        ],
+        "versusBattleWinCount":1426,
+        "labels":[
+          {
+            "id":57000000,
+            "name":"Clan Wars",
+            "iconUrls":{
+              "small":"https://api-assets.clashofclans.com/labels/64/ZxJp9606Vl1sa0GHg5JmGp8TdHS4l0jE4WFuil1ENvA.png",
+              "medium":"https://api-assets.clashofclans.com/labels/128/ZxJp9606Vl1sa0GHg5JmGp8TdHS4l0jE4WFuil1ENvA.png"
+            }
+          },
+          {
+            "id":57000001,
+            "name":"Clan War League",
+            "iconUrls":{
+              "small":"https://api-assets.clashofclans.com/labels/64/JOzAO4r91eVaJELAPB-iuAx6f_zBbRPCLM_ag5mpK4s.png",
+              "medium":"https://api-assets.clashofclans.com/labels/128/JOzAO4r91eVaJELAPB-iuAx6f_zBbRPCLM_ag5mpK4s.png"
+            }
+          },
+          {
+            "id":57000008,
+            "name":"Active Donator",
+            "iconUrls":{
+              "small":"https://api-assets.clashofclans.com/labels/64/MvL0LDt0yv9AI-Vevpu8yE5NAJUIV05Ofpsr4IfGRxQ.png",
+              "medium":"https://api-assets.clashofclans.com/labels/128/MvL0LDt0yv9AI-Vevpu8yE5NAJUIV05Ofpsr4IfGRxQ.png"
+            }
+          }
+        ],
+        "heroes":[
+          {
+            "name":"Barbarian King",
+            "level":63,
+            "maxLevel":80,
+            "village":"home"
+          },
+          {
+            "name":"Archer Queen",
+            "level":65,
+            "maxLevel":80,
+            "village":"home"
+          },
+          {
+            "name":"Grand Warden",
+            "level":40,
+            "maxLevel":55,
+            "village":"home"
+          },
+          {
+            "name":"Battle Machine",
+            "level":30,
+            "maxLevel":30,
+            "village":"builderBase"
+          },
+          {
+            "name":"Royal Champion",
+            "level":1,
+            "maxLevel":30,
+            "village":"home"
+          }
+        ],
+        "spells":[
+          {
+            "name":"Lightning Spell",
+            "level":9,
+            "maxLevel":9,
+            "village":"home"
+          },
+          {
+            "name":"Healing Spell",
+            "level":7,
+            "maxLevel":8,
+            "village":"home"
+          },
+          {
+            "name":"Rage Spell",
+            "level":6,
+            "maxLevel":6,
+            "village":"home"
+          },
+          {
+            "name":"Jump Spell",
+            "level":3,
+            "maxLevel":4,
+            "village":"home"
+          },
+          {
+            "name":"Freeze Spell",
+            "level":7,
+            "maxLevel":7,
+            "village":"home"
+          },
+          {
+            "name":"Poison Spell",
+            "level":2,
+            "maxLevel":8,
+            "village":"home"
+          },
+          {
+            "name":"Earthquake Spell",
+            "level":5,
+            "maxLevel":5,
+            "village":"home"
+          },
+          {
+            "name":"Haste Spell",
+            "level":5,
+            "maxLevel":5,
+            "village":"home"
+          },
+          {
+            "name":"Clone Spell",
+            "level":3,
+            "maxLevel":7,
+            "village":"home"
+          },
+          {
+            "name":"Skeleton Spell",
+            "level":1,
+            "maxLevel":7,
+            "village":"home"
+          },
+          {
+            "name":"Bat Spell",
+            "level":1,
+            "maxLevel":5,
+            "village":"home"
+          },
+          {
+            "name":"Invisibility Spell",
+            "level":3,
+            "maxLevel":4,
+            "village":"home"
+          }
+        ],
+        "troops":[
+          {
+            "name":"Barbarian",
+            "level":8,
+            "maxLevel":10,
+            "village":"home"
+          },
+          {
+            "name":"Archer",
+            "level":8,
+            "maxLevel":10,
+            "village":"home"
+          },
+          {
+            "name":"Goblin",
+            "level":7,
+            "maxLevel":8,
+            "village":"home"
+          },
+          {
+            "name":"Giant",
+            "level":9,
+            "maxLevel":10,
+            "village":"home"
+          },
+          {
+            "name":"Wall Breaker",
+            "level":7,
+            "maxLevel":10,
+            "village":"home"
+          },
+          {
+            "name":"Balloon",
+            "level":8,
+            "maxLevel":10,
+            "village":"home"
+          },
+          {
+            "name":"Wizard",
+            "level":9,
+            "maxLevel":10,
+            "village":"home"
+          },
+          {
+            "name":"Healer",
+            "level":5,
+            "maxLevel":7,
+            "village":"home"
+          },
+          {
+            "name":"Dragon",
+            "level":8,
+            "maxLevel":9,
+            "village":"home"
+          },
+          {
+            "name":"P.E.K.K.A",
+            "level":7,
+            "maxLevel":9,
+            "village":"home"
+          },
+          {
+            "name":"Minion",
+            "level":8,
+            "maxLevel":10,
+            "village":"home"
+          },
+          {
+            "name":"Hog Rider",
+            "level":9,
+            "maxLevel":11,
+            "village":"home"
+          },
+          {
+            "name":"Valkyrie",
+            "level":7,
+            "maxLevel":9,
+            "village":"home"
+          },
+          {
+            "name":"Golem",
+            "level":7,
+            "maxLevel":11,
+            "village":"home"
+          },
+          {
+            "name":"Witch",
+            "level":5,
+            "maxLevel":5,
+            "village":"home"
+          },
+          {
+            "name":"Lava Hound",
+            "level":5,
+            "maxLevel":6,
+            "village":"home"
+          },
+          {
+            "name":"Bowler",
+            "level":4,
+            "maxLevel":6,
+            "village":"home"
+          },
+          {
+            "name":"Baby Dragon",
+            "level":6,
+            "maxLevel":8,
+            "village":"home"
+          },
+          {
+            "name":"Miner",
+            "level":6,
+            "maxLevel":8,
+            "village":"home"
+          },
+          {
+            "name":"Super Barbarian",
+            "level":1,
+            "maxLevel":3,
+            "village":"home"
+          },
+          {
+            "name":"Super Archer",
+            "level":1,
+            "maxLevel":3,
+            "village":"home"
+          },
+          {
+            "name":"Super Wall Breaker",
+            "level":1,
+            "maxLevel":4,
+            "village":"home"
+          },
+          {
+            "name":"Super Giant",
+            "level":1,
+            "maxLevel":2,
+            "village":"home"
+          },
+          {
+            "name":"Raged Barbarian",
+            "level":10,
+            "maxLevel":18,
+            "village":"builderBase"
+          },
+          {
+            "name":"Sneaky Archer",
+            "level":11,
+            "maxLevel":18,
+            "village":"builderBase"
+          },
+          {
+            "name":"Beta Minion",
+            "level":18,
+            "maxLevel":18,
+            "village":"builderBase"
+          },
+          {
+            "name":"Boxer Giant",
+            "level":18,
+            "maxLevel":18,
+            "village":"builderBase"
+          },
+          {
+            "name":"Bomber",
+            "level":18,
+            "maxLevel":18,
+            "village":"builderBase"
+          },
+          {
+            "name":"Super P.E.K.K.A",
+            "level":18,
+            "maxLevel":18,
+            "village":"builderBase"
+          },
+          {
+            "name":"Cannon Cart",
+            "level":18,
+            "maxLevel":18,
+            "village":"builderBase"
+          },
+          {
+            "name":"Drop Ship",
+            "level":1,
+            "maxLevel":18,
+            "village":"builderBase"
+          },
+          {
+            "name":"Baby Dragon",
+            "level":8,
+            "maxLevel":18,
+            "village":"builderBase"
+          },
+          {
+            "name":"Night Witch",
+            "level":18,
+            "maxLevel":18,
+            "village":"builderBase"
+          },
+          {
+            "name":"Wall Wrecker",
+            "level":1,
+            "maxLevel":4,
+            "village":"home"
+          },
+          {
+            "name":"Battle Blimp",
+            "level":1,
+            "maxLevel":4,
+            "village":"home"
+          },
+          {
+            "name":"Yeti",
+            "level":2,
+            "maxLevel":4,
+            "village":"home"
+          },
+          {
+            "name":"Sneaky Goblin",
+            "level":1,
+            "maxLevel":2,
+            "village":"home"
+          },
+          {
+            "name":"Rocket Balloon",
+            "level":1,
+            "maxLevel":3,
+            "village":"home"
+          },
+          {
+            "name":"Ice Golem",
+            "level":5,
+            "maxLevel":6,
+            "village":"home"
+          },
+          {
+            "name":"Electro Dragon",
+            "level":3,
+            "maxLevel":5,
+            "village":"home"
+          },
+          {
+            "name":"Stone Slammer",
+            "level":1,
+            "maxLevel":4,
+            "village":"home"
+          },
+          {
+            "name":"Inferno Dragon",
+            "level":1,
+            "maxLevel":3,
+            "village":"home"
+          },
+          {
+            "name":"Super Valkyrie",
+            "level":1,
+            "maxLevel":3,
+            "village":"home"
+          },
+          {
+            "name":"Super Witch",
+            "level":1,
+            "maxLevel":1,
+            "village":"home"
+          },
+          {
+            "name":"Hog Glider",
+            "level":10,
+            "maxLevel":18,
+            "village":"builderBase"
+          },
+          {
+            "name":"Ice Hound",
+            "level":1,
+            "maxLevel":2,
+            "village":"home"
+          },
+          {
+            "name":"Super Bowler",
+            "level":1,
+            "maxLevel":3,
+            "village":"home"
+          },
+          {
+            "name":"Super Dragon",
+            "level":1,
+            "maxLevel":3,
+            "village":"home"
+          },
+          {
+            "name":"Headhunter",
+            "level":1,
+            "maxLevel":3,
+            "village":"home"
+          },
+          {
+            "name":"Super Wizard",
+            "level":1,
+            "maxLevel":2,
+            "village":"home"
+          },
+          {
+            "name":"Super Minion",
+            "level":1,
+            "maxLevel":3,
+            "village":"home"
+          }
+        ]
+      }
+    ]
+  },
+  "clans":{
+    "#2L2LUUVYR":[
+      {
+        "tag":"#2L2LUUVYR",
+        "name":"나뭇잎마을",
+        "type":"inviteOnly",
+        "description":"#성인길드 #환영 #어서오세요 #지원활발 #비매너강퇴 #클전필참 가입 후 간단한 소개 필수, 선요청시 강퇴             ※ 오픈톡 : coc나뭇잎마을",
+        "location":{
+          "id":32000216,
+          "name":"South Korea",
+          "isCountry":true,
+          "countryCode":"KR"
+        },
+        "badgeUrls":{
+          "small":"https://api-assets.clashofclans.com/badges/70/yuQATTFW4zOtIOwSi3tE3N2cDdauuZn2LdIfVOHkkVQ.png",
+          "large":"https://api-assets.clashofclans.com/badges/512/yuQATTFW4zOtIOwSi3tE3N2cDdauuZn2LdIfVOHkkVQ.png",
+          "medium":"https://api-assets.clashofclans.com/badges/200/yuQATTFW4zOtIOwSi3tE3N2cDdauuZn2LdIfVOHkkVQ.png"
+        },
+        "clanLevel":12,
+        "clanPoints":40733,
+        "clanVersusPoints":43208,
+        "requiredTrophies":2000,
+        "warFrequency":"always",
+        "warWinStreak":1,
+        "warWins":103,
+        "isWarLogPublic":false,
+        "warLeague":{
+          "id":48000013,
+          "name":"Master League III"
+        },
+        "members":50,
+        "memberList":[
+          {
+            "tag":"#YUL9YQP8",
+            "name":"Mantis_말래동생",
+            "role":"coLeader",
+            "expLevel":234,
+            "league":{
+              "id":29000022,
+              "name":"Legend League",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/R2zmhyqQ0_lKcDR5EyghXCxgyC9mm_mVMIjAbmGoZtw.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/R2zmhyqQ0_lKcDR5EyghXCxgyC9mm_mVMIjAbmGoZtw.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/R2zmhyqQ0_lKcDR5EyghXCxgyC9mm_mVMIjAbmGoZtw.png"
+              }
+            },
+            "trophies":5165,
+            "versusTrophies":5057,
+            "clanRank":1,
+            "previousClanRank":1,
+            "donations":923,
+            "donationsReceived":575
+          },
+          {
+            "tag":"#VJ88YC8J",
+            "name":"국태",
+            "role":"member",
+            "expLevel":220,
+            "league":{
+              "id":29000021,
+              "name":"Titan League I",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png"
+              }
+            },
+            "trophies":4914,
+            "versusTrophies":4690,
+            "clanRank":2,
+            "previousClanRank":2,
+            "donations":0,
+            "donationsReceived":96
+          },
+          {
+            "tag":"#JVYJ0GV8",
+            "name":"차니아빠",
+            "role":"member",
+            "expLevel":223,
+            "league":{
+              "id":29000021,
+              "name":"Titan League I",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png"
+              }
+            },
+            "trophies":4897,
+            "versusTrophies":3726,
+            "clanRank":3,
+            "previousClanRank":4,
+            "donations":0,
+            "donationsReceived":156
+          },
+          {
+            "tag":"#22Y0JVYRR",
+            "name":"테니스악동",
+            "role":"member",
+            "expLevel":222,
+            "league":{
+              "id":29000022,
+              "name":"Legend League",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/R2zmhyqQ0_lKcDR5EyghXCxgyC9mm_mVMIjAbmGoZtw.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/R2zmhyqQ0_lKcDR5EyghXCxgyC9mm_mVMIjAbmGoZtw.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/R2zmhyqQ0_lKcDR5EyghXCxgyC9mm_mVMIjAbmGoZtw.png"
+              }
+            },
+            "trophies":4887,
+            "versusTrophies":4790,
+            "clanRank":4,
+            "previousClanRank":3,
+            "donations":85,
+            "donationsReceived":96
+          },
+          {
+            "tag":"#8VU9JCC9",
+            "name":"남자",
+            "role":"admin",
+            "expLevel":185,
+            "league":{
+              "id":29000021,
+              "name":"Titan League I",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png"
+              }
+            },
+            "trophies":4851,
+            "versusTrophies":3433,
+            "clanRank":5,
+            "previousClanRank":5,
+            "donations":249,
+            "donationsReceived":248
+          },
+          {
+            "tag":"#229YQPLCV",
+            "name":"Luke An",
+            "role":"coLeader",
+            "expLevel":190,
+            "league":{
+              "id":29000021,
+              "name":"Titan League I",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png"
+              }
+            },
+            "trophies":4811,
+            "versusTrophies":4570,
+            "clanRank":6,
+            "previousClanRank":6,
+            "donations":549,
+            "donationsReceived":282
+          },
+          {
+            "tag":"#2YLUR0JLC",
+            "name":"하준아빠",
+            "role":"coLeader",
+            "expLevel":160,
+            "league":{
+              "id":29000021,
+              "name":"Titan League I",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/qVCZmeYH0lS7Gaa6YoB7LrNly7bfw7fV_d4Vp2CU-gk.png"
+              }
+            },
+            "trophies":4682,
+            "versusTrophies":3486,
+            "clanRank":7,
+            "previousClanRank":7,
+            "donations":272,
+            "donationsReceived":126
+          },
+          {
+            "tag":"#U2GRQP90",
+            "name":"몽키D루피",
+            "role":"coLeader",
+            "expLevel":210,
+            "league":{
+              "id":29000020,
+              "name":"Titan League II",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png"
+              }
+            },
+            "trophies":4533,
+            "versusTrophies":4696,
+            "clanRank":8,
+            "previousClanRank":8,
+            "donations":109,
+            "donationsReceived":231
+          },
+          {
+            "tag":"#G09GJQRR",
+            "name":"마이동풍",
+            "role":"member",
+            "expLevel":173,
+            "league":{
+              "id":29000020,
+              "name":"Titan League II",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/llpWocHlOoFliwyaEx5Z6dmoZG4u4NmxwpF-Jg7su7Q.png"
+              }
+            },
+            "trophies":4473,
+            "versusTrophies":3283,
+            "clanRank":9,
+            "previousClanRank":9,
+            "donations":0,
+            "donationsReceived":0
+          },
+          {
+            "tag":"#LR0JULPU0",
+            "name":"별이",
+            "role":"member",
+            "expLevel":175,
+            "league":{
+              "id":29000019,
+              "name":"Titan League III",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/L-HrwYpFbDwWjdmhJQiZiTRa_zXPPOgUTdmbsaq4meo.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/L-HrwYpFbDwWjdmhJQiZiTRa_zXPPOgUTdmbsaq4meo.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/L-HrwYpFbDwWjdmhJQiZiTRa_zXPPOgUTdmbsaq4meo.png"
+              }
+            },
+            "trophies":4344,
+            "versusTrophies":4431,
+            "clanRank":10,
+            "previousClanRank":10,
+            "donations":398,
+            "donationsReceived":370
+          },
+          {
+            "tag":"#QR88V0PQJ",
+            "name":"무패신화",
+            "role":"member",
+            "expLevel":123,
+            "league":{
+              "id":29000019,
+              "name":"Titan League III",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/L-HrwYpFbDwWjdmhJQiZiTRa_zXPPOgUTdmbsaq4meo.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/L-HrwYpFbDwWjdmhJQiZiTRa_zXPPOgUTdmbsaq4meo.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/L-HrwYpFbDwWjdmhJQiZiTRa_zXPPOgUTdmbsaq4meo.png"
+              }
+            },
+            "trophies":4196,
+            "versusTrophies":2898,
+            "clanRank":11,
+            "previousClanRank":11,
+            "donations":0,
+            "donationsReceived":45
+          },
+          {
+            "tag":"#LRJJ92C0R",
+            "name":"밤비",
+            "role":"member",
+            "expLevel":206,
+            "league":{
+              "id":29000019,
+              "name":"Titan League III",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/L-HrwYpFbDwWjdmhJQiZiTRa_zXPPOgUTdmbsaq4meo.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/L-HrwYpFbDwWjdmhJQiZiTRa_zXPPOgUTdmbsaq4meo.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/L-HrwYpFbDwWjdmhJQiZiTRa_zXPPOgUTdmbsaq4meo.png"
+              }
+            },
+            "trophies":4191,
+            "versusTrophies":3641,
+            "clanRank":12,
+            "previousClanRank":12,
+            "donations":462,
+            "donationsReceived":327
+          },
+          {
+            "tag":"#208C0UVLJ",
+            "name":"장수말벌",
+            "role":"member",
+            "expLevel":197,
+            "league":{
+              "id":29000019,
+              "name":"Titan League III",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/L-HrwYpFbDwWjdmhJQiZiTRa_zXPPOgUTdmbsaq4meo.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/L-HrwYpFbDwWjdmhJQiZiTRa_zXPPOgUTdmbsaq4meo.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/L-HrwYpFbDwWjdmhJQiZiTRa_zXPPOgUTdmbsaq4meo.png"
+              }
+            },
+            "trophies":4131,
+            "versusTrophies":3743,
+            "clanRank":13,
+            "previousClanRank":14,
+            "donations":172,
+            "donationsReceived":155
+          },
+          {
+            "tag":"#29LYRPQ08",
+            "name":"Chanel",
+            "role":"member",
+            "expLevel":223,
+            "league":{
+              "id":29000000,
+              "name":"Unranked",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+              }
+            },
+            "trophies":4119,
+            "versusTrophies":3403,
+            "clanRank":14,
+            "previousClanRank":13,
+            "donations":0,
+            "donationsReceived":0
+          },
+          {
+            "tag":"#QRLQ09GP",
+            "name":"뽀미니",
+            "role":"member",
+            "expLevel":223,
+            "league":{
+              "id":29000018,
+              "name":"Champion League I",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/9v_04LHmd1LWq7IoY45dAdGhrBkrc2ZFMZVhe23PdCE.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/9v_04LHmd1LWq7IoY45dAdGhrBkrc2ZFMZVhe23PdCE.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/9v_04LHmd1LWq7IoY45dAdGhrBkrc2ZFMZVhe23PdCE.png"
+              }
+            },
+            "trophies":3880,
+            "versusTrophies":5000,
+            "clanRank":15,
+            "previousClanRank":15,
+            "donations":604,
+            "donationsReceived":155
+          },
+          {
+            "tag":"#Q288C8UPR",
+            "name":"파이",
+            "role":"member",
+            "expLevel":140,
+            "league":{
+              "id":29000018,
+              "name":"Champion League I",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/9v_04LHmd1LWq7IoY45dAdGhrBkrc2ZFMZVhe23PdCE.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/9v_04LHmd1LWq7IoY45dAdGhrBkrc2ZFMZVhe23PdCE.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/9v_04LHmd1LWq7IoY45dAdGhrBkrc2ZFMZVhe23PdCE.png"
+              }
+            },
+            "trophies":3818,
+            "versusTrophies":3454,
+            "clanRank":16,
+            "previousClanRank":17,
+            "donations":325,
+            "donationsReceived":488
+          },
+          {
+            "tag":"#V0VGYG28",
+            "name":"호박벌",
+            "role":"member",
+            "expLevel":157,
+            "league":{
+              "id":29000018,
+              "name":"Champion League I",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/9v_04LHmd1LWq7IoY45dAdGhrBkrc2ZFMZVhe23PdCE.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/9v_04LHmd1LWq7IoY45dAdGhrBkrc2ZFMZVhe23PdCE.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/9v_04LHmd1LWq7IoY45dAdGhrBkrc2ZFMZVhe23PdCE.png"
+              }
+            },
+            "trophies":3815,
+            "versusTrophies":3449,
+            "clanRank":17,
+            "previousClanRank":16,
+            "donations":165,
+            "donationsReceived":154
+          },
+          {
+            "tag":"#Q9U0GLY9U",
+            "name":"⚔️Targaryen⚔️",
+            "role":"member",
+            "expLevel":119,
+            "league":{
+              "id":29000017,
+              "name":"Champion League II",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/kLWSSyq7vJiRiCantiKCoFuSJOxief6R1ky6AyfB8q0.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/kLWSSyq7vJiRiCantiKCoFuSJOxief6R1ky6AyfB8q0.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/kLWSSyq7vJiRiCantiKCoFuSJOxief6R1ky6AyfB8q0.png"
+              }
+            },
+            "trophies":3742,
+            "versusTrophies":3921,
+            "clanRank":18,
+            "previousClanRank":18,
+            "donations":107,
+            "donationsReceived":96
+          },
+          {
+            "tag":"#29LVR2YUV",
+            "name":"Ramos",
+            "role":"member",
+            "expLevel":164,
+            "league":{
+              "id":29000017,
+              "name":"Champion League II",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/kLWSSyq7vJiRiCantiKCoFuSJOxief6R1ky6AyfB8q0.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/kLWSSyq7vJiRiCantiKCoFuSJOxief6R1ky6AyfB8q0.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/kLWSSyq7vJiRiCantiKCoFuSJOxief6R1ky6AyfB8q0.png"
+              }
+            },
+            "trophies":3683,
+            "versusTrophies":4106,
+            "clanRank":19,
+            "previousClanRank":20,
+            "donations":104,
+            "donationsReceived":320
+          },
+          {
+            "tag":"#8P09RG90L",
+            "name":"포포",
+            "role":"admin",
+            "expLevel":186,
+            "league":{
+              "id":29000000,
+              "name":"Unranked",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+              }
+            },
+            "trophies":3589,
+            "versusTrophies":4141,
+            "clanRank":20,
+            "previousClanRank":19,
+            "donations":133,
+            "donationsReceived":96
+          },
+          {
+            "tag":"#22LJ80P9G",
+            "name":"Hermes",
+            "role":"member",
+            "expLevel":231,
+            "league":{
+              "id":29000000,
+              "name":"Unranked",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+              }
+            },
+            "trophies":3408,
+            "versusTrophies":4658,
+            "clanRank":21,
+            "previousClanRank":21,
+            "donations":0,
+            "donationsReceived":0
+          },
+          {
+            "tag":"#Q8G89G0QC",
+            "name":"아바돈",
+            "role":"member",
+            "expLevel":135,
+            "league":{
+              "id":29000016,
+              "name":"Champion League III",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/JmmTbspV86xBigM7OP5_SjsEDPuE7oXjZC9aOy8xO3s.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/JmmTbspV86xBigM7OP5_SjsEDPuE7oXjZC9aOy8xO3s.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/JmmTbspV86xBigM7OP5_SjsEDPuE7oXjZC9aOy8xO3s.png"
+              }
+            },
+            "trophies":3394,
+            "versusTrophies":3495,
+            "clanRank":22,
+            "previousClanRank":23,
+            "donations":1,
+            "donationsReceived":268
+          },
+          {
+            "tag":"#RVYY9ULV",
+            "name":"PRADA",
+            "role":"member",
+            "expLevel":171,
+            "league":{
+              "id":29000016,
+              "name":"Champion League III",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/JmmTbspV86xBigM7OP5_SjsEDPuE7oXjZC9aOy8xO3s.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/JmmTbspV86xBigM7OP5_SjsEDPuE7oXjZC9aOy8xO3s.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/JmmTbspV86xBigM7OP5_SjsEDPuE7oXjZC9aOy8xO3s.png"
+              }
+            },
+            "trophies":3379,
+            "versusTrophies":3511,
+            "clanRank":23,
+            "previousClanRank":22,
+            "donations":0,
+            "donationsReceived":0
+          },
+          {
+            "tag":"#Y2P0LLR9C",
+            "name":"일벌",
+            "role":"member",
+            "expLevel":220,
+            "league":{
+              "id":29000000,
+              "name":"Unranked",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+              }
+            },
+            "trophies":3369,
+            "versusTrophies":4156,
+            "clanRank":24,
+            "previousClanRank":24,
+            "donations":0,
+            "donationsReceived":0
+          },
+          {
+            "tag":"#PYPCLPYQ",
+            "name":"다이노스",
+            "role":"member",
+            "expLevel":226,
+            "league":{
+              "id":29000015,
+              "name":"Master League I",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/olUfFb1wscIH8hqECAdWbdB6jPm9R8zzEyHIzyBgRXc.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/olUfFb1wscIH8hqECAdWbdB6jPm9R8zzEyHIzyBgRXc.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/olUfFb1wscIH8hqECAdWbdB6jPm9R8zzEyHIzyBgRXc.png"
+              }
+            },
+            "trophies":3186,
+            "versusTrophies":4679,
+            "clanRank":25,
+            "previousClanRank":26,
+            "donations":440,
+            "donationsReceived":220
+          },
+          {
+            "tag":"#2YVG20VQJ",
+            "name":"아이언★보살",
+            "role":"coLeader",
+            "expLevel":149,
+            "league":{
+              "id":29000000,
+              "name":"Unranked",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+              }
+            },
+            "trophies":3169,
+            "versusTrophies":2357,
+            "clanRank":26,
+            "previousClanRank":25,
+            "donations":0,
+            "donationsReceived":184
+          },
+          {
+            "tag":"#YVVJ2CUGR",
+            "name":"Dior",
+            "role":"member",
+            "expLevel":163,
+            "league":{
+              "id":29000000,
+              "name":"Unranked",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+              }
+            },
+            "trophies":3101,
+            "versusTrophies":3197,
+            "clanRank":27,
+            "previousClanRank":27,
+            "donations":0,
+            "donationsReceived":0
+          },
+          {
+            "tag":"#PVQ9J022R",
+            "name":"아레스",
+            "role":"member",
+            "expLevel":150,
+            "league":{
+              "id":29000000,
+              "name":"Unranked",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+              }
+            },
+            "trophies":3083,
+            "versusTrophies":3081,
+            "clanRank":28,
+            "previousClanRank":28,
+            "donations":0,
+            "donationsReceived":0
+          },
+          {
+            "tag":"#PGCY0VYP",
+            "name":"다이노스 Jr.",
+            "role":"member",
+            "expLevel":229,
+            "league":{
+              "id":29000000,
+              "name":"Unranked",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+              }
+            },
+            "trophies":3013,
+            "versusTrophies":5000,
+            "clanRank":29,
+            "previousClanRank":30,
+            "donations":170,
+            "donationsReceived":45
+          },
+          {
+            "tag":"#289QJ90LV",
+            "name":"금빛섬광",
+            "role":"coLeader",
+            "expLevel":215,
+            "league":{
+              "id":29000015,
+              "name":"Master League I",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/olUfFb1wscIH8hqECAdWbdB6jPm9R8zzEyHIzyBgRXc.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/olUfFb1wscIH8hqECAdWbdB6jPm9R8zzEyHIzyBgRXc.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/olUfFb1wscIH8hqECAdWbdB6jPm9R8zzEyHIzyBgRXc.png"
+              }
+            },
+            "trophies":3002,
+            "versusTrophies":3681,
+            "clanRank":30,
+            "previousClanRank":29,
+            "donations":194,
+            "donationsReceived":47
+          },
+          {
+            "tag":"#2G2RRCPJ9",
+            "name":"우주",
+            "role":"member",
+            "expLevel":178,
+            "league":{
+              "id":29000000,
+              "name":"Unranked",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+              }
+            },
+            "trophies":2948,
+            "versusTrophies":2598,
+            "clanRank":31,
+            "previousClanRank":32,
+            "donations":0,
+            "donationsReceived":0
+          },
+          {
+            "tag":"#RGJ2VYCL",
+            "name":"므냐고",
+            "role":"admin",
+            "expLevel":225,
+            "league":{
+              "id":29000015,
+              "name":"Master League I",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/olUfFb1wscIH8hqECAdWbdB6jPm9R8zzEyHIzyBgRXc.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/olUfFb1wscIH8hqECAdWbdB6jPm9R8zzEyHIzyBgRXc.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/olUfFb1wscIH8hqECAdWbdB6jPm9R8zzEyHIzyBgRXc.png"
+              }
+            },
+            "trophies":2927,
+            "versusTrophies":4854,
+            "clanRank":32,
+            "previousClanRank":31,
+            "donations":73,
+            "donationsReceived":0
+          },
+          {
+            "tag":"#22GR9U8GG",
+            "name":"Gricius",
+            "role":"member",
+            "expLevel":151,
+            "league":{
+              "id":29000014,
+              "name":"Master League II",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/4wtS1stWZQ-1VJ5HaCuDPfdhTWjeZs_jPar_YPzK6Lg.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/4wtS1stWZQ-1VJ5HaCuDPfdhTWjeZs_jPar_YPzK6Lg.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/4wtS1stWZQ-1VJ5HaCuDPfdhTWjeZs_jPar_YPzK6Lg.png"
+              }
+            },
+            "trophies":2851,
+            "versusTrophies":2723,
+            "clanRank":33,
+            "previousClanRank":33,
+            "donations":0,
+            "donationsReceived":0
+          },
+          {
+            "tag":"#99L8VJRQY",
+            "name":"이웃집또터러",
+            "role":"member",
+            "expLevel":223,
+            "league":{
+              "id":29000000,
+              "name":"Unranked",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+              }
+            },
+            "trophies":2839,
+            "versusTrophies":4946,
+            "clanRank":34,
+            "previousClanRank":34,
+            "donations":75,
+            "donationsReceived":45
+          },
+          {
+            "tag":"#L8V9U20V0",
+            "name":"wizad",
+            "role":"member",
+            "expLevel":118,
+            "league":{
+              "id":29000013,
+              "name":"Master League III",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/pSXfKvBKSgtvfOY3xKkgFaRQi0WcE28s3X35ywbIluY.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/pSXfKvBKSgtvfOY3xKkgFaRQi0WcE28s3X35ywbIluY.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/pSXfKvBKSgtvfOY3xKkgFaRQi0WcE28s3X35ywbIluY.png"
+              }
+            },
+            "trophies":2789,
+            "versusTrophies":2371,
+            "clanRank":35,
+            "previousClanRank":35,
+            "donations":0,
+            "donationsReceived":67
+          },
+          {
+            "tag":"#QLPUP98C2",
+            "name":"박서준",
+            "role":"member",
+            "expLevel":107,
+            "league":{
+              "id":29000013,
+              "name":"Master League III",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/pSXfKvBKSgtvfOY3xKkgFaRQi0WcE28s3X35ywbIluY.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/pSXfKvBKSgtvfOY3xKkgFaRQi0WcE28s3X35ywbIluY.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/pSXfKvBKSgtvfOY3xKkgFaRQi0WcE28s3X35ywbIluY.png"
+              }
+            },
+            "trophies":2712,
+            "versusTrophies":2616,
+            "clanRank":36,
+            "previousClanRank":36,
+            "donations":146,
+            "donationsReceived":216
+          },
+          {
+            "tag":"#JL2PGL8P",
+            "name":"Black",
+            "role":"member",
+            "expLevel":128,
+            "league":{
+              "id":29000013,
+              "name":"Master League III",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/pSXfKvBKSgtvfOY3xKkgFaRQi0WcE28s3X35ywbIluY.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/pSXfKvBKSgtvfOY3xKkgFaRQi0WcE28s3X35ywbIluY.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/pSXfKvBKSgtvfOY3xKkgFaRQi0WcE28s3X35ywbIluY.png"
+              }
+            },
+            "trophies":2629,
+            "versusTrophies":2728,
+            "clanRank":37,
+            "previousClanRank":37,
+            "donations":0,
+            "donationsReceived":67
+          },
+          {
+            "tag":"#UU88J8J9",
+            "name":"클전달인 0별 김병만",
+            "role":"member",
+            "expLevel":226,
+            "league":{
+              "id":29000000,
+              "name":"Unranked",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+              }
+            },
+            "trophies":2614,
+            "versusTrophies":5000,
+            "clanRank":38,
+            "previousClanRank":38,
+            "donations":217,
+            "donationsReceived":65
+          },
+          {
+            "tag":"#VQY0G88G",
+            "name":"kimpro",
+            "role":"coLeader",
+            "expLevel":225,
+            "league":{
+              "id":29000013,
+              "name":"Master League III",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/pSXfKvBKSgtvfOY3xKkgFaRQi0WcE28s3X35ywbIluY.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/pSXfKvBKSgtvfOY3xKkgFaRQi0WcE28s3X35ywbIluY.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/pSXfKvBKSgtvfOY3xKkgFaRQi0WcE28s3X35ywbIluY.png"
+              }
+            },
+            "trophies":2602,
+            "versusTrophies":5089,
+            "clanRank":39,
+            "previousClanRank":45,
+            "donations":677,
+            "donationsReceived":933
+          },
+          {
+            "tag":"#8QCY88R28",
+            "name":"leh77",
+            "role":"member",
+            "expLevel":132,
+            "league":{
+              "id":29000000,
+              "name":"Unranked",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+              }
+            },
+            "trophies":2557,
+            "versusTrophies":2947,
+            "clanRank":40,
+            "previousClanRank":39,
+            "donations":0,
+            "donationsReceived":0
+          },
+          {
+            "tag":"#LP82PLLGC",
+            "name":"피카츄❤️",
+            "role":"member",
+            "expLevel":131,
+            "league":{
+              "id":29000000,
+              "name":"Unranked",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+              }
+            },
+            "trophies":2491,
+            "versusTrophies":2344,
+            "clanRank":41,
+            "previousClanRank":40,
+            "donations":0,
+            "donationsReceived":0
+          },
+          {
+            "tag":"#QCQPQ0RC",
+            "name":"ASXCE",
+            "role":"member",
+            "expLevel":183,
+            "league":{
+              "id":29000011,
+              "name":"Crystal League II",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/jhP36EhAA9n1ADafdQtCP-ztEAQjoRpY7cT8sU7SW8A.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/jhP36EhAA9n1ADafdQtCP-ztEAQjoRpY7cT8sU7SW8A.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/jhP36EhAA9n1ADafdQtCP-ztEAQjoRpY7cT8sU7SW8A.png"
+              }
+            },
+            "trophies":2350,
+            "versusTrophies":2666,
+            "clanRank":42,
+            "previousClanRank":41,
+            "donations":59,
+            "donationsReceived":77
+          },
+          {
+            "tag":"#Y0J0VYVPQ",
+            "name":"알파",
+            "role":"member",
+            "expLevel":151,
+            "league":{
+              "id":29000000,
+              "name":"Unranked",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+              }
+            },
+            "trophies":2333,
+            "versusTrophies":3044,
+            "clanRank":43,
+            "previousClanRank":42,
+            "donations":0,
+            "donationsReceived":0
+          },
+          {
+            "tag":"#U08GC29G",
+            "name":"꿀벌",
+            "role":"member",
+            "expLevel":124,
+            "league":{
+              "id":29000000,
+              "name":"Unranked",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/e--YMyIexEQQhE4imLoJcwhYn6Uy8KqlgyY3_kFV6t4.png"
+              }
+            },
+            "trophies":2211,
+            "versusTrophies":2802,
+            "clanRank":44,
+            "previousClanRank":44,
+            "donations":0,
+            "donationsReceived":0
+          },
+          {
+            "tag":"#Y0QPV2RGV",
+            "name":"둥이",
+            "role":"member",
+            "expLevel":127,
+            "league":{
+              "id":29000011,
+              "name":"Crystal League II",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/jhP36EhAA9n1ADafdQtCP-ztEAQjoRpY7cT8sU7SW8A.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/jhP36EhAA9n1ADafdQtCP-ztEAQjoRpY7cT8sU7SW8A.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/jhP36EhAA9n1ADafdQtCP-ztEAQjoRpY7cT8sU7SW8A.png"
+              }
+            },
+            "trophies":2185,
+            "versusTrophies":3260,
+            "clanRank":45,
+            "previousClanRank":43,
+            "donations":0,
+            "donationsReceived":0
+          },
+          {
+            "tag":"#VCL2P82C",
+            "name":"LuckyBin",
+            "role":"leader",
+            "expLevel":200,
+            "league":{
+              "id":29000009,
+              "name":"Gold League I",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/CorhMY9ZmQvqXTZ4VYVuUgPNGSHsO0cEXEL5WYRmB2Y.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/CorhMY9ZmQvqXTZ4VYVuUgPNGSHsO0cEXEL5WYRmB2Y.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/CorhMY9ZmQvqXTZ4VYVuUgPNGSHsO0cEXEL5WYRmB2Y.png"
+              }
+            },
+            "trophies":1810,
+            "versusTrophies":4091,
+            "clanRank":46,
+            "previousClanRank":46,
+            "donations":536,
+            "donationsReceived":456
+          },
+          {
+            "tag":"#YGV2QJC20",
+            "name":"마샬D티치",
+            "role":"coLeader",
+            "expLevel":88,
+            "league":{
+              "id":29000009,
+              "name":"Gold League I",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/CorhMY9ZmQvqXTZ4VYVuUgPNGSHsO0cEXEL5WYRmB2Y.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/CorhMY9ZmQvqXTZ4VYVuUgPNGSHsO0cEXEL5WYRmB2Y.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/CorhMY9ZmQvqXTZ4VYVuUgPNGSHsO0cEXEL5WYRmB2Y.png"
+              }
+            },
+            "trophies":1748,
+            "versusTrophies":2250,
+            "clanRank":47,
+            "previousClanRank":47,
+            "donations":0,
+            "donationsReceived":0
+          },
+          {
+            "tag":"#2P2JV2YVL",
+            "name":"동동군단",
+            "role":"admin",
+            "expLevel":144,
+            "league":{
+              "id":29000008,
+              "name":"Gold League II",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/Y6CveuHmPM_oiOic2Yet0rYL9AFRYW0WA0u2e44-YbM.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/Y6CveuHmPM_oiOic2Yet0rYL9AFRYW0WA0u2e44-YbM.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/Y6CveuHmPM_oiOic2Yet0rYL9AFRYW0WA0u2e44-YbM.png"
+              }
+            },
+            "trophies":1708,
+            "versusTrophies":2443,
+            "clanRank":48,
+            "previousClanRank":48,
+            "donations":0,
+            "donationsReceived":201
+          },
+          {
+            "tag":"#PCV0QLGU0",
+            "name":"치즈버거",
+            "role":"member",
+            "expLevel":161,
+            "league":{
+              "id":29000007,
+              "name":"Gold League III",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/vd4Lhz5b2I1P0cLH25B6q63JN3Wt1j2NTMhOYpMPQ4M.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/vd4Lhz5b2I1P0cLH25B6q63JN3Wt1j2NTMhOYpMPQ4M.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/vd4Lhz5b2I1P0cLH25B6q63JN3Wt1j2NTMhOYpMPQ4M.png"
+              }
+            },
+            "trophies":1397,
+            "versusTrophies":3588,
+            "clanRank":49,
+            "previousClanRank":49,
+            "donations":0,
+            "donationsReceived":0
+          },
+          {
+            "tag":"#QYVU9L0Q9",
+            "name":"하맘",
+            "role":"member",
+            "expLevel":72,
+            "league":{
+              "id":29000006,
+              "name":"Silver League I",
+              "iconUrls":{
+                "small":"https://api-assets.clashofclans.com/leagues/72/nvrBLvCK10elRHmD1g9w5UU1flDRMhYAojMB2UbYfPs.png",
+                "tiny":"https://api-assets.clashofclans.com/leagues/36/nvrBLvCK10elRHmD1g9w5UU1flDRMhYAojMB2UbYfPs.png",
+                "medium":"https://api-assets.clashofclans.com/leagues/288/nvrBLvCK10elRHmD1g9w5UU1flDRMhYAojMB2UbYfPs.png"
+              }
+            },
+            "trophies":1378,
+            "versusTrophies":1771,
+            "clanRank":50,
+            "previousClanRank":50,
+            "donations":0,
+            "donationsReceived":30
+          }
+        ],
+        "labels":[
+          {
+            "id":56000000,
+            "name":"Clan Wars",
+            "iconUrls":{
+              "small":"https://api-assets.clashofclans.com/labels/64/lXaIuoTlfoNOY5fKcQGeT57apz1KFWkN9-raxqIlMbE.png",
+              "medium":"https://api-assets.clashofclans.com/labels/128/lXaIuoTlfoNOY5fKcQGeT57apz1KFWkN9-raxqIlMbE.png"
+            }
+          },
+          {
+            "id":56000001,
+            "name":"Clan War League",
+            "iconUrls":{
+              "small":"https://api-assets.clashofclans.com/labels/64/5w60_3bdtYUe9SM6rkxBRyV_8VvWw_jTlDS5ieU3IsI.png",
+              "medium":"https://api-assets.clashofclans.com/labels/128/5w60_3bdtYUe9SM6rkxBRyV_8VvWw_jTlDS5ieU3IsI.png"
+            }
+          },
+          {
+            "id":56000009,
+            "name":"Donations",
+            "iconUrls":{
+              "small":"https://api-assets.clashofclans.com/labels/64/RauzS-02tv4vWm1edZ-q3gPQGWKGANLZ-85HCw_NVP0.png",
+              "medium":"https://api-assets.clashofclans.com/labels/128/RauzS-02tv4vWm1edZ-q3gPQGWKGANLZ-85HCw_NVP0.png"
+            }
+          }
+        ],
+        "chatLanguage":{
+          "id":75000011,
+          "name":"한국어",
+          "languageCode":"KR"
+        },
+        "requiredVersusTrophies":2000,
+        "requiredTownhallLevel":11
+      }
+    ]
+  }
+}
