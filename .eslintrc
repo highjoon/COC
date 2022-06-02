@@ -1,0 +1,44 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "tsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "ignorePatterns": ["node_modules/*", ".next/*"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["react", "@typescript-eslint"],
+  "rules": {
+    "no-undef": "off",
+    "prettier/prettier": [
+      "warn",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "react-hooks/rules-of-hooks": "warn",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
