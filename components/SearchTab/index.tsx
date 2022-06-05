@@ -1,19 +1,13 @@
-import React, { useState } from "react";
+import React, { MouseEventHandler } from "react";
 
-const SearchTab: React.FC = () => {
-  const [isPlayersActive, setIsPlayersActive] = useState<boolean>(true);
-  const [isClansActive, setIsClansActive] = useState<boolean>(false);
+interface Props {
+  isPlayersActive: boolean;
+  isClansActive: boolean;
+  toggleIsPlayersActive: MouseEventHandler<HTMLButtonElement>;
+  toggleIsClansActive: MouseEventHandler<HTMLButtonElement>;
+}
 
-  const toggleIsPlayersActive = () => {
-    setIsPlayersActive(true);
-    setIsClansActive(false);
-  };
-
-  const toggleIsClansActive = () => {
-    setIsClansActive(true);
-    setIsPlayersActive(false);
-  };
-
+const SearchTab: React.FC<Props> = ({ isPlayersActive, isClansActive, toggleIsPlayersActive, toggleIsClansActive }) => {
   return (
     <div className="flex justify-center items-center w-full h-24">
       <button
