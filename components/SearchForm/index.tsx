@@ -1,5 +1,7 @@
-import React, { useEffect } from "react";
-import { useInput, useDebounce } from "hooks";
+/* eslint-disable react-hooks/exhaustive-deps */
+import React, { useEffect, useState } from "react";
+import Link from "next/link";
+import { useInput } from "hooks";
 
 interface Props {
   isPlayersActive: boolean;
@@ -8,31 +10,39 @@ interface Props {
 
 const SearchForm: React.FC<Props> = ({ isPlayersActive, isClansActive }) => {
   const [newInput, onChangenewInput, setnewInput] = useInput<string>("");
-  const value = useDebounce(newInput);
+  const [category, setCategory] = useState("");
 
   useEffect(() => {
     setnewInput("");
   }, [isPlayersActive, isClansActive, setnewInput]);
 
   useEffect(() => {
-    if (!value) return;
-    let category = "";
-    if (isPlayersActive) category = "players";
-    if (isClansActive) category = "clans";
-    console.log(value, category);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [value]);
+    if (!newInput) return;
+    let newCategory = "";
+    if (isPlayersActive) newCategory = "players";
+    if (isClansActive) newCategory = "clans";
+    setCategory(newCategory);
+  }, [newInput]);
 
   return (
-    <div className="flex flex-col justify-center items-center h-full">
+    <div className="flex flex-col px-6 py-2 space-y-2">
       <input
         type="text"
         id="search-input"
-        className="w-[550px] h-12 rounded-md px-6 py-2 bg-input focus:bg-white ease-in-out duration-200 border-0 placeholder-slate-400 focus:outline-none md:text-md"
-        placeholder="Enter Name or Tag"
+        className="w-full h-12 rounded-md border-0 placeholder-slate-400 bg-input focus:bg-white ease-in-out duration-500 focus:outline-none md:text-md"
+        placeholder={`${isPlayersActive ? "플레이어" : isClansActive ? "클랜" : ""}명 또는 태그를 입력해주세요`}
         value={newInput}
         onChange={onChangenewInput}
       />
+      <Link href={`${category}/${encodeURIComponent(newInput)}`}>
+        <a
+          className={`${
+            newInput !== "" ? "active bg-lightgray2 hover:bg-white" : "pointer-events-none cursor-not-allowed bg-lightgray"
+          } w-full text-center duration-200 rounded-md`}
+        >
+          검색
+        </a>
+      </Link>
     </div>
   );
 };

@@ -8,6 +8,7 @@ module.exports = {
       white: "#ffffff",
       black: "#000000",
       lightgray: "#383838",
+      lightgray2: "#a3a3a3",
     },
     typography: (theme) => ({}),
     extend: {

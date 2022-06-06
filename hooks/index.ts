@@ -1,4 +1,5 @@
+import useGetPlayerInfo from "./useGetPlayerInfo";
 import useDebounce from "./useDebounce";
 import useInput from "./useInput";
 
-export { useDebounce, useInput };
+export { useDebounce, useInput, useGetPlayerInfo };

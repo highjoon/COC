@@ -12,19 +12,19 @@ const SearchTab: React.FC<Props> = ({ isPlayersActive, isClansActive, toggleIsPl
     <div className="flex justify-center items-center w-full h-24">
       <button
         className={`w-1/2 h-full rounded-tl-md ${
-          isPlayersActive ? "bg-white text-layout" : "text-input hover:bg-lightgray hover:text-black"
+          isPlayersActive ? "bg-white text-layout" : "text-input hover:bg-lightgray2 hover:text-black"
         } font-bold transition duration-200 ease focus:outline-none`}
         onClick={toggleIsPlayersActive}
       >
-        Players
+        플레이어 검색
       </button>
       <button
         className={`w-1/2 h-full rounded-tr-md ${
-          isClansActive ? "bg-white text-layout" : "text-input hover:bg-lightgray hover:text-black"
+          isClansActive ? "bg-white text-layout" : "text-input hover:bg-lightgray2 hover:text-black"
         } font-bold transition duration-200 ease focus:outline-none`}
         onClick={toggleIsClansActive}
       >
-        Clans
+        클랜 검색
       </button>
     </div>
   );
