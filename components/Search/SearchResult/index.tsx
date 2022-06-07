@@ -14,7 +14,7 @@ const SearchResult: React.FC<Props> = ({ data, isPlayer }) => {
   return (
     <div className="flex flex-col justify-center items-center w-full text-center rounded-md bg-gradient-to-b from-background1 to-background2 border-border2 border-3">
       {isPlayer && (
-        <div className="flex flex-col justify-center items-center w-full text-center rounded-md bg-gradient-to-b from-background1 to-background2 border-border2 border-3">
+        <>
           <div className="flex justify-between items-center w-full px-6 py-2">
             <PlayerInfoSection
               expLevel={data.expLevel}
@@ -33,7 +33,7 @@ const SearchResult: React.FC<Props> = ({ data, isPlayer }) => {
             attackWins={data.attackWins}
             defenseWins={data.defenseWins}
           />
-        </div>
+        </>
       )}
     </div>
   );
