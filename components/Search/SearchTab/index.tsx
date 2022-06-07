@@ -16,7 +16,7 @@ const SearchTab: React.FC<Props> = ({ isPlayersActive, isClansActive, toggleIsPl
         } font-bold transition duration-200 ease focus:outline-none`}
         onClick={toggleIsPlayersActive}
       >
-        플레이어 검색
+        Players
       </button>
       <button
         className={`w-1/2 h-full rounded-tr-md ${
@@ -24,7 +24,7 @@ const SearchTab: React.FC<Props> = ({ isPlayersActive, isClansActive, toggleIsPl
         } font-bold transition duration-200 ease focus:outline-none`}
         onClick={toggleIsClansActive}
       >
-        클랜 검색
+        Clans
       </button>
     </div>
   );

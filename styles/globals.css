@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "SUPERCELL";
+  src: url("../public/assets/fonts/supercell-magic.ttf");
+}
+
+@font-face {
+  font-family: "HOONJEONGGEULBOOKR";
+  src: url("../public/assets/fonts/훈정글북R.ttf");
+}

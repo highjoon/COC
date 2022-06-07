@@ -5,7 +5,7 @@ interface Props {
 }
 
 const Layout: React.FC<Props> = ({ children }) => {
-  return <div className="w-full h-screen bg-layout">{children}</div>;
+  return <div className="w-full h-screen bg-layout font-supercell font-bold text-md">{children}</div>;
 };
 
 export default Layout;

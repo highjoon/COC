@@ -4,7 +4,7 @@ import { API_WEB_TOKEN } from "lib/constants/http";
 import { APIPlayer } from "types/api/players";
 
 const useGetPlayerInfo = (value: string) => {
-  return useQuery("players", async () => {
+  return useQuery<APIPlayer>("players", async () => {
     const { data }: { data: APIPlayer } = await axios.get(`/coc-api/players/${encodeURIComponent(value)}`, {
       headers: {
         Accept: "application/json",

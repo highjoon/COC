@@ -1,7 +1,8 @@
 import React from "react";
 import type { NextPage } from "next";
-import { Header, Main } from "components";
-import Layout from "layouts/Layout";
+import { Header } from "components/Common";
+import { Main } from "components/home";
+import { Layout } from "layouts";
 
 const Home: NextPage = () => {
   return (

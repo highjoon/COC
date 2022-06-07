@@ -10,12 +10,9 @@ const nextConfig = {
         destination: "https://api.clashofclans.com/v1/players/:id*",
       },
     ];
-    // return [
-    //   {
-    //     source: "/players/:id*",
-    //     destination: "https://api.clashofclans.com/v1/players/:id*",
-    //   },
-    // ];
+  },
+  images: {
+    domains: ["api-assets.clashofclans.com"],
   },
 };
 

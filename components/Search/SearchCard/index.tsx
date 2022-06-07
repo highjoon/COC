@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from "react";
-import { SearchForm, SearchTab } from "components";
+import { SearchForm, SearchTab } from "components/Search";
 
 const SearchCard: React.FC = () => {
   const [isPlayersActive, setIsPlayersActive] = useState<boolean>(true);
