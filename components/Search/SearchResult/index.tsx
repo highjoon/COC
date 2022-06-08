@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import { APIPlayer } from "types/api/players";
 import { PlayerClanSection, PlayerExtraInfoSection, PlayerInfoSection, PlayerLeagueSection } from "components/Player";
-import { InfoCard } from "components/Common";
+import { InfoCard, ImageCard } from "components/Common";
 
 interface Props {
   data: APIPlayer;
@@ -19,7 +19,7 @@ const SearchResult: React.FC<Props> = ({ data, isPlayer }) => {
 
   return (
     <>
-      <InfoCard>
+      <InfoCard flexCol={true}>
         {isPlayer && (
           <>
             <div className="flex justify-between items-center w-full px-6 py-2">
@@ -43,16 +43,16 @@ const SearchResult: React.FC<Props> = ({ data, isPlayer }) => {
           </>
         )}
       </InfoCard>
-      <InfoCard>
-        <div className="flex justify-around">
+      <InfoCard flexCol={false} justify={"evenly"}>
+        <div className="flex flex-wrap">
           <Image
             src={`/assets/images/townHalls/th${data.townHallLevel}${data.townHallLevel >= 13 ? `-${data.townHallWeaponLevel}` : ""}.webp`}
             width={200}
             height={200}
-            alt={"townhall"}
+            alt={data.townHallLevel.toString()}
           />
         </div>
-        <div>{data.troops.map((troop) => troop.village === hall && <div key={troop.name}>{troop.name}</div>)}</div>
+        <ImageCard title={"Troops"} villiage={hall} data={data} sort={"troops"} />
       </InfoCard>
     </>
   );

@@ -29,15 +29,15 @@ const SearchForm: React.FC<Props> = ({ isPlayersActive, isClansActive }) => {
       <input
         type="text"
         id="search-input"
-        className="w-full h-12 rounded-md border-0 px-5 placeholder-slate-400 bg-input focus:bg-white ease-in-out duration-500 focus:outline-none md:text-md"
-        placeholder={`${isPlayersActive ? "플레이어" : isClansActive ? "클랜" : ""} 태그를 입력해주세요.`}
+        className="w-full h-12 rounded-md border-0 px-5 placeholder:text-white bg-input focus:bg-white ease-in-out duration-500 focus:outline-none md:text-md"
+        placeholder={`Enter ${isPlayersActive ? "Player" : isClansActive ? "Clan" : ""} Tag.`}
         value={newInput}
         onChange={onChangenewInput}
       />
       <Link href={`${category}/${encodeURIComponent(newInput)}`} passHref>
         <a
           className={`${
-            newInput !== "" ? "active bg-lightgray2 hover:bg-white" : "pointer-events-none cursor-not-allowed bg-layout text-input"
+            newInput !== "" ? "active bg-lightgray2 hover:bg-white" : "pointer-events-none cursor-not-allowed bg-layout"
           } w-full h-7 text-center duration-200 rounded-md`}
         >
           Search

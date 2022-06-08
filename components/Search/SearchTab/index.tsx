@@ -12,7 +12,7 @@ const SearchTab: React.FC<Props> = ({ isPlayersActive, isClansActive, toggleIsPl
     <div className="flex justify-center items-center w-full h-24">
       <button
         className={`w-1/2 h-full rounded-tl-md ${
-          isPlayersActive ? "bg-white text-layout" : "text-input hover:bg-lightgray2 hover:text-black"
+          isPlayersActive ? "bg-white" : "hover:bg-lightgray2 hover:text-white"
         } font-bold transition duration-200 ease focus:outline-none`}
         onClick={toggleIsPlayersActive}
       >
@@ -20,7 +20,7 @@ const SearchTab: React.FC<Props> = ({ isPlayersActive, isClansActive, toggleIsPl
       </button>
       <button
         className={`w-1/2 h-full rounded-tr-md ${
-          isClansActive ? "bg-white text-layout" : "text-input hover:bg-lightgray2 hover:text-black"
+          isClansActive ? "bg-white" : "hover:bg-lightgray2 hover:text-white"
         } font-bold transition duration-200 ease focus:outline-none`}
         onClick={toggleIsClansActive}
       >

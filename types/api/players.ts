@@ -4,6 +4,8 @@ import { APILeague } from "types/api/leagues";
 
 /** /players/{playerTag} */
 export interface APIPlayer {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  [key: string]: any;
   name: string;
   tag: string;
   townHallLevel: number;

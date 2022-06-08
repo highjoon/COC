@@ -11,3 +11,8 @@
   font-family: "HOONJEONGGEULBOOKR";
   src: url("../public/assets/fonts/훈정글북R.ttf");
 }
+
+* {
+  color:white;
+  -webkit-text-stroke: 1px black;
+}
