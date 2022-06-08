@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { GetServerSideProps } from "next";
 import { useRouter } from "next/router";
-import { Header } from "components/Common";
 import { SearchResult, SearchResultTab } from "components/Search";
 import { useGetPlayerInfo } from "hooks";
 import { Layout } from "layouts";
@@ -20,7 +19,6 @@ const PlayerSummary: React.FC = ({ id }: { id?: string }) => {
 
   return (
     <Layout>
-      <Header />
       <div className="flex justify-center items-center w-full h-[550px] py-9 bg-homeBackground bg-no-repeat bg-center bg-cover">
         {(isLoading || !data) && <div>로딩중 ... </div>}
         {isSuccess && data && (
