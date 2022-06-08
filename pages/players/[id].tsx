@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { GetServerSideProps } from "next";
 import { useRouter } from "next/router";
-import { useGetPlayerInfo } from "hooks";
 import { Header } from "components/Common";
 import { SearchResult, SearchResultTab } from "components/Search";
+import { useGetPlayerInfo } from "hooks";
 import { Layout } from "layouts";
 
 const PlayerSummary: React.FC = ({ id }: { id?: string }) => {
@@ -12,8 +12,8 @@ const PlayerSummary: React.FC = ({ id }: { id?: string }) => {
   const { data, isLoading, isSuccess } = useGetPlayerInfo(id as string);
 
   useEffect(() => {
-    if (hall !== "builder" && hall !== "capital") {
-      router.replace(`${encodeURIComponent(id as string)}/?hall=town`);
+    if (hall !== "builderBase" && hall !== "capital") {
+      router.replace(`${encodeURIComponent(id as string)}/?hall=home`);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -24,7 +24,7 @@ const PlayerSummary: React.FC = ({ id }: { id?: string }) => {
       <div className="flex justify-center items-center w-full h-[550px] py-9 bg-homeBackground bg-no-repeat bg-center bg-cover">
         {(isLoading || !data) && <div>로딩중 ... </div>}
         {isSuccess && data && (
-          <div className="flex flex-col items-center justify-start w-[900px] h-full space-y-2 bg-background4/70 px-2 rounded-md">
+          <div className="flex flex-col items-center justify-start w-[900px] h-full space-y-2 bg-layout/90 px-2 rounded-md">
             <SearchResultTab id={id} />
             <SearchResult data={data} isPlayer={true} />
           </div>

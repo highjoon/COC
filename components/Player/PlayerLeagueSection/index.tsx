@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Trophy, WarStar } from "public/assets";
+import { Trophy, WarStar } from "public/assets/icons";
 import { APILeague } from "types/api/leagues";
 
 interface Props {

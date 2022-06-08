@@ -1,3 +1,4 @@
 import Layout from "./Layout";
+import InfoCardWrapper from "./InfoCardWrapper";
 
-export { Layout };
+export { Layout, InfoCardWrapper };

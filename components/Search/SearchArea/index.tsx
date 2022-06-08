@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { SearchCard } from "components/Search";
-import { TitleLogo } from "public/assets";
+import { TitleLogo } from "public/assets/images/logo";
 
 const SearchArea: React.FC = () => {
   return (

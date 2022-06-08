@@ -32,9 +32,9 @@ module.exports = {
     typography: (theme) => ({}),
     extend: {
       backgroundImage: {
-        homeBackground: "url('/assets/images/homeBackground.webp')",
-        headerLogo: "url('/assets/images/headerLogo.webp')",
-        titleLogo: "url('/assets/images/titleLogo.webp')",
+        homeBackground: "url('/assets/images/background/homeBackground.webp')",
+        headerLogo: "url('/assets/images/logo/headerLogo.webp')",
+        titleLogo: "url('/assets/images/logo/titleLogo.webp')",
       },
       flexGrow: {
         "0": 0,
