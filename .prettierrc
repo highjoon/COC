@@ -8,6 +8,5 @@
   "useTabs": false,
   "parser": "typescript",
   "arrowParens": "always",
-  "semi": true,
-  "jsxBracketSameLine": false
+  "semi": true
 }

@@ -43,16 +43,23 @@ const SearchResult: React.FC<Props> = ({ data, isPlayer }) => {
           </>
         )}
       </InfoCard>
-      <InfoCard flexCol={false} justify={"evenly"}>
-        <div className="flex flex-wrap">
+      <InfoCard flexCol={false}>
+        <div className="flex flex-col grow-[0.1] justify-between items-center h-full pl-3 pb-3 pt-3">
           <Image
             src={`/assets/images/townHalls/th${data.townHallLevel}${data.townHallLevel >= 13 ? `-${data.townHallWeaponLevel}` : ""}.webp`}
             width={200}
             height={200}
             alt={data.townHallLevel.toString()}
           />
+          <div className="flex flex-col w-full gap-3">
+            <ImageCard title={"Heroes"} villiage={hall} data={data} sort={"heroes"} gridCols={4} />
+            <ImageCard title={"Pets"} villiage={hall} data={data} sort={"troops"} gridCols={4} isPet={true} />
+          </div>
         </div>
-        <ImageCard title={"Troops"} villiage={hall} data={data} sort={"troops"} />
+        <div className="flex flex-col grow-[0.9] items-center p-3 gap-3">
+          <ImageCard title={"Troops"} villiage={hall} data={data} sort={"troops"} gridCols={8} />
+          <ImageCard title={"Spells"} villiage={hall} data={data} sort={"spells"} gridCols={8} />
+        </div>
       </InfoCard>
     </>
   );

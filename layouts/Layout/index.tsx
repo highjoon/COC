@@ -7,7 +7,7 @@ interface Props {
 
 const Layout: React.FC<Props> = ({ children }) => {
   return (
-    <div className="w-full h-screen bg-layout font-supercell font-bold text-md">
+    <div className="w-full h-screen overflow-auto bg-layout font-supercell font-bold text-md">
       <Header />
       {children}
     </div>
