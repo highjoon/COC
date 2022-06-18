@@ -4,6 +4,7 @@ module.exports = {
     colors: {
       white: "#ffffff",
       black: "#000000",
+      gray: "#4b5563",
       pink: "#d668a5",
       lightgray: "#383838",
       lightgray2: "#a3a3a3",
@@ -24,6 +25,7 @@ module.exports = {
       button3: "#cbc9bc",
       button4: "#bab8a9",
       maxLevel: "#e8b55f",
+      loading: "#00aed0",
     },
     borderWidth: {
       "0": "0",
