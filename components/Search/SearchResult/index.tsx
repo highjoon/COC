@@ -3,8 +3,8 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import { PlayerClanSection, PlayerExtraInfoSection, PlayerInfoSection, PlayerLeagueSection } from "components/Player";
 import { InfoCard, ImageCard } from "components/Common";
-import { useGetPlayerInfo } from "hooks";
 import Loading from "components/Loading";
+import { useGetPlayerInfo } from "hooks";
 
 type Props = {
   isPlayer: boolean;
@@ -13,9 +13,9 @@ type Props = {
 const SearchResult: React.FC<Props> = ({ isPlayer }) => {
   const router = useRouter();
   const { hall, id } = router.query;
-  const { data } = useGetPlayerInfo(id as string);
+  const { data, isLoading } = useGetPlayerInfo(id as string);
 
-  if (data === undefined) return <Loading />;
+  if (data === undefined || isLoading) return <Loading />;
 
   return (
     <>

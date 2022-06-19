@@ -9,7 +9,7 @@ interface Props {
 
 const SearchTab: React.FC<Props> = ({ isPlayersActive, isClansActive, toggleIsPlayersActive, toggleIsClansActive }) => {
   return (
-    <div className="flex justify-center items-center w-full h-24">
+    <div className="flex justify-center items-center w-full h-24 text-sm sm:text-lg">
       <button
         className={`w-1/2 h-full rounded-tl-md ${
           isPlayersActive ? "bg-white" : "hover:bg-lightgray2 hover:text-white"
