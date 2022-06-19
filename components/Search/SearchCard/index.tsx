@@ -16,14 +16,16 @@ const SearchCard: React.FC = () => {
   }, [setIsClansActive, setIsPlayersActive]);
 
   return (
-    <div className="flex flex-col place-content-between w-[600px] h-36 bg-layout shadow-xl rounded-md">
-      <SearchTab
-        isPlayersActive={isPlayersActive}
-        isClansActive={isClansActive}
-        toggleIsPlayersActive={toggleIsPlayersActive}
-        toggleIsClansActive={toggleIsClansActive}
-      />
-      <SearchForm isPlayersActive={isPlayersActive} isClansActive={isClansActive} />
+    <div className="w-full px-2 sm:w-[550px]">
+      <div className="flex flex-col place-content-between h-36 bg-layout shadow-xl rounded-md">
+        <SearchTab
+          isPlayersActive={isPlayersActive}
+          isClansActive={isClansActive}
+          toggleIsPlayersActive={toggleIsPlayersActive}
+          toggleIsClansActive={toggleIsClansActive}
+        />
+        <SearchForm isPlayersActive={isPlayersActive} isClansActive={isClansActive} />
+      </div>
     </div>
   );
 };
