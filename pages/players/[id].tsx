@@ -20,10 +20,10 @@ const PlayerSummary: React.FC = ({ id }: { id?: string }) => {
 
   return (
     <Layout>
-      <div className="flex justify-center items-center w-full h-[550px] py-9 bg-homeBackground bg-no-repeat bg-center bg-cover">
+      <div className="flex justify-center items-center w-full h-[550px] px-3 sm:px-5 md:px-9 py-9 bg-homeBackground bg-no-repeat bg-center bg-cover">
         {(isLoading || !data) && <Loading />}
         {isSuccess && data && (
-          <div className="flex flex-col items-center justify-start w-[900px] h-full space-y-2 bg-layout/90 px-2 rounded-md">
+          <div className="flex flex-col items-center justify-start w-full h-full space-y-2 bg-layout/90 px-2 rounded-md">
             <SearchResultTab id={id} />
             <SearchResult data={data} isPlayer={true} />
           </div>

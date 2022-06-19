@@ -9,7 +9,7 @@ interface Props {
 const InfoCard: React.FC<Props> = ({ children, flexCol, justify }) => {
   return (
     <div
-      className={`${flexCol ? "flex flex-col" : "flex"} justify-${
+      className={`${flexCol ? "flex flex-col" : "flex flex-col sm:flex-row"} justify-${
         justify ? justify : "center"
       } w-full rounded-md bg-gradient-to-b from-background1 to-background2 border-border2 border-3`}
     >

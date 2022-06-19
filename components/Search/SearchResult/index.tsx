@@ -22,7 +22,7 @@ const SearchResult: React.FC<Props> = ({ data, isPlayer }) => {
       <InfoCard flexCol={true}>
         {isPlayer && (
           <>
-            <div className="flex justify-between items-center w-full px-6 py-2">
+            <div className="flex flex-col md:flex-row justify-between items-center w-full px-3 py-2 gap-3">
               <PlayerInfoSection
                 expLevel={data.expLevel}
                 name={data.name}
@@ -44,21 +44,21 @@ const SearchResult: React.FC<Props> = ({ data, isPlayer }) => {
         )}
       </InfoCard>
       <InfoCard flexCol={false}>
-        <div className="flex flex-col grow-[0.1] justify-between items-center h-full pl-3 pb-3 pt-3">
+        <div className="flex flex-col grow-[0.1] justify-evenly items-center h-full pl-3 pb-3 pt-3">
           <Image
             src={`/assets/images/townHalls/th${data.townHallLevel}${data.townHallLevel >= 13 ? `-${data.townHallWeaponLevel}` : ""}.webp`}
-            width={200}
-            height={200}
+            width={350}
+            height={350}
             alt={data.townHallLevel.toString()}
           />
           <div className="flex flex-col w-full gap-3">
-            <ImageCard title={"Heroes"} villiage={hall} data={data} sort={"heroes"} gridCols={4} />
-            <ImageCard title={"Pets"} villiage={hall} data={data} sort={"troops"} gridCols={4} isPet={true} />
+            <ImageCard title={"Heroes"} villiage={hall} data={data} sort={"heroes"} />
+            <ImageCard title={"Pets"} villiage={hall} data={data} sort={"troops"} isPet={true} />
           </div>
         </div>
         <div className="flex flex-col grow-[0.9] items-center p-3 gap-3">
-          <ImageCard title={"Troops"} villiage={hall} data={data} sort={"troops"} gridCols={8} />
-          <ImageCard title={"Spells"} villiage={hall} data={data} sort={"spells"} gridCols={8} />
+          <ImageCard title={"Troops"} villiage={hall} data={data} sort={"troops"} />
+          <ImageCard title={"Spells"} villiage={hall} data={data} sort={"spells"} />
         </div>
       </InfoCard>
     </>

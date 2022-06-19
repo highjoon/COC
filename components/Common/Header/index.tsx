@@ -10,8 +10,8 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="flex items-center justify-between h-20 text-title">
-      <button className="w-28 h-20 ml-8 bg-headerLogo bg-no-repeat bg-contain bg-center border-none" onClick={logoClickHandler} />
+    <header className="flex items-center justify-between h-14 py-1 px-3.5 text-title">
+      <button className="w-28 h-20 bg-headerLogo bg-no-repeat bg-contain bg-center border-none" onClick={logoClickHandler} />
       <div className="flex items-center justify-between font-extrabold text-xl" />
     </header>
   );

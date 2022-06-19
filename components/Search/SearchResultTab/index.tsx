@@ -15,26 +15,32 @@ const SearchResultTab: React.FC<Props> = ({ id }) => {
   };
 
   return (
-    <div className="flex w-full space-x-7 px-7 py-5">
+    <div className="flex w-full gap-3 px-2 sm:px-5 md:px-9 py-4 sm:py-6 text-sm sm:text-md md:text-lg">
       <button
-        className="flex justify-center items-center w-full py-3 space-x-2 rounded-md bg-gradient-to-b from-button1 to-button2 shadow-md shadow-black text-white font-bold text-lg hover:bg-gradient-to-b hover:from-button3 hover:to-button4"
+        className="flex justify-center items-center w-full py-3 gap-2 rounded-md bg-gradient-to-b from-button1 to-button2 shadow-md shadow-black text-white font-bold hover:bg-gradient-to-b hover:from-button3 hover:to-button4"
         onClick={() => onTabClickHandler("home")}
       >
-        <Image src={TownSymbol} width={40} height={40} alt={"townHall-symbol"} />
+        <div className="hidden sm:block">
+          <Image src={TownSymbol} width={40} height={40} alt={"townHall-symbol"} />
+        </div>
         <span>Home</span>
       </button>
       <button
-        className="flex justify-center items-center w-full py-3 space-x-2 rounded-md bg-gradient-to-b from-button1 to-button2 shadow-md shadow-black text-white font-bold text-lg hover:bg-gradient-to-b hover:from-button3 hover:to-button4"
+        className="flex justify-center items-center w-full py-3 gap-2 rounded-md bg-gradient-to-b from-button1 to-button2 shadow-md shadow-black text-white font-bold hover:bg-gradient-to-b hover:from-button3 hover:to-button4"
         onClick={() => onTabClickHandler("builderBase")}
       >
-        <Image src={BuilderSymbol} width={40} height={40} alt={"builder-symbol"} />
+        <div className="hidden sm:block">
+          <Image src={BuilderSymbol} width={40} height={40} alt={"builder-symbol"} />
+        </div>
         <span>Builder Base</span>
       </button>
       <button
-        className="flex justify-center items-center w-full py-3 space-x-2 rounded-md bg-gradient-to-b from-button1 to-button2 shadow-md shadow-black text-white font-bold text-lg hover:bg-gradient-to-b hover:from-button3 hover:to-button4"
+        className="flex justify-center items-center w-full py-3 gap-2 rounded-md bg-gradient-to-b from-button1 to-button2 shadow-md shadow-black text-white font-bold hover:bg-gradient-to-b hover:from-button3 hover:to-button4"
         onClick={() => onTabClickHandler("capital")}
       >
-        <Image src={CapitalSymbol} width={40} height={40} alt={"clan-capital-symbol"} />
+        <div className="hidden sm:block">
+          <Image src={CapitalSymbol} width={40} height={40} alt={"clan-capital-symbol"} />
+        </div>
         <span>Clan Capital</span>
       </button>
     </div>

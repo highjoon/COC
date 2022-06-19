@@ -9,7 +9,7 @@ interface Props {
 
 const PlayerClanSection: React.FC<Props> = ({ role, clan }) => {
   return (
-    <div className="flex justify-center w-full h-full border-r-3 border-border3">
+    <div className="flex justify-center w-full h-full md:border-r-3 md:border-border3">
       {role === "member" ? (
         <div className="flex flex-col justify-start items-center text-2xl">
           {clan?.name}

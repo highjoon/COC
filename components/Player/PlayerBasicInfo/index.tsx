@@ -12,23 +12,21 @@ interface Props {
 
 const PlayerBasicInfo: React.FC<Props> = ({ expLevel, name, tag, role, clan }) => {
   return (
-    <div className="flex justify-start space-x-4">
-      <div className="flex justify-start">
-        <p className="flex justify-center items-center">
-          <span className="text-xs">LV.</span> {expLevel}
-        </p>
-      </div>
-      <div className="flex flex-col items-start text-sm space-y-1">
-        <p className="text-2xl">{name}</p>
+    <div className="flex flex-col md:flex-row justify-center items-center md:gap-4">
+      <div className="flex flex-col justify-center items-center text-lg md:text-sm">LV.{expLevel}</div>
+      <div className="flex flex-col items-center md:items-start gap-y-1">
+        <p className="text-3xl">{name}</p>
         <p>{tag}</p>
         {role === "member" ? (
-          <div className="flex justify-center items-center">
-            <span>Member of&nbsp;</span>
-            <Image src={clan?.badgeUrls.small as string} width={20} height={20} alt={"clan-badge"} />
-            <span>{clan?.name}</span>
+          <div className="flex flex-col lg:flex-row">
+            Member of&nbsp;
+            <span className="flex justify-center items-center gap-1">
+              <Image src={clan?.badgeUrls.small as string} width={20} height={20} alt={"clan-badge"} />
+              {clan?.name}
+            </span>
           </div>
         ) : (
-          <div>No Clan</div>
+          <div className="text-3xl">No Clan</div>
         )}
       </div>
     </div>

@@ -14,7 +14,7 @@ interface Props {
 
 const PlayerInfoSection: React.FC<Props> = ({ expLevel, name, tag, role, clan, labels }) => {
   return (
-    <div className="flex flex-col w-full h-full border-r-3 pr-3 border-border3 border-border4">
+    <div className="flex flex-col w-full h-full pr-3 md:border-r-3 md:border-border3">
       <PlayerBasicInfo expLevel={expLevel} name={name} tag={tag} role={role} clan={clan} />
       <PlayerLabels labels={labels} />
     </div>
