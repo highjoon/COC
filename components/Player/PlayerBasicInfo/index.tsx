@@ -12,9 +12,9 @@ interface Props {
 
 const PlayerBasicInfo: React.FC<Props> = ({ expLevel, name, tag, role, clan }) => {
   return (
-    <div className="flex flex-col md:flex-row justify-center items-center md:gap-4">
-      <div className="flex flex-col justify-center items-center text-lg md:text-sm">LV.{expLevel}</div>
-      <div className="flex flex-col items-center md:items-start gap-y-1">
+    <div className="flex flex-col lg:flex-row justify-start lg:justify-center items-center lg:items-end lg:gap-4">
+      <p className="text-lg lg:text-sm">LV.{expLevel}</p>
+      <div className="flex flex-col items-center xl:items-start gap-y-1">
         <p className="text-3xl">{name}</p>
         <p>{tag}</p>
         {role === "member" ? (

@@ -9,16 +9,27 @@ interface Props {
   data: APIPlayer;
   sort: string;
   isPet?: boolean;
+  isHeroes?: boolean;
 }
 
-const ImageCard: React.FC<Props> = ({ title, villiage, data, sort, isPet }) => {
+type gridColumnsType = {
+  [key: number]: string;
+};
+
+const gridColumns: gridColumnsType = {
+  0: "grid gap-3 grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 justify-items-center",
+  1: "grid gap-3 grid-cols-2 sm:grid-cols-4 justify-items-center",
+};
+
+const ImageCard: React.FC<Props> = ({ title, villiage, data, sort, isPet, isHeroes }) => {
   if (isPet && data[sort][data[sort].length - 1].name !== "Unicorn") {
     return <></>;
   }
+
   return (
-    <div className="flex flex-col w-full text-left p-3 bg-background5/80 rounded-md">
-      <p>{title}</p>
-      <div className={"grid gap-3 grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 justify-items-center"}>
+    <div className="flex flex-col w-full text-center p-3 gap-2 bg-background5/80 rounded-md">
+      <p className="text-2xl">{title}</p>
+      <div className={gridColumns[isPet || isHeroes ? 1 : 0]}>
         {data[sort].map(
           (item: APIPlayerItem) =>
             item.village === villiage &&
