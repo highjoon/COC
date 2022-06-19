@@ -25,7 +25,7 @@ const PlayerSummary: React.FC = ({ id }: { id?: string }) => {
         {isSuccess && data && (
           <div className="flex flex-col items-center justify-start w-full h-full space-y-2 bg-layout/90 px-2 rounded-md">
             <SearchResultTab id={id} />
-            <SearchResult data={data} isPlayer={true} />
+            <SearchResult isPlayer={true} />
           </div>
         )}
       </div>

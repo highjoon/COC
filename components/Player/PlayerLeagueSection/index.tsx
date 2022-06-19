@@ -13,7 +13,7 @@ const PlayerLeagueSection: React.FC<Props> = ({ league, warStars, bestTrophies }
   return (
     <div className="flex flex-col justify-start items-center text-center w-full h-full">
       <div className="text-2xl">{league?.name}</div>
-      <Image src={league?.iconUrls?.medium as string} width={150} height={150} alt={"league-icon"} />
+      {league?.iconUrls && <Image src={league?.iconUrls?.medium as string} width={150} height={150} alt={"league-icon"} />}
       <div className="flex flex-col lg:flex-row justify-around items-center w-full py-3 gap-3 text-lg lg:text-xl">
         <div className="flex flex-col">
           <p>War Stars</p>

@@ -15,7 +15,7 @@ const SearchResultTab: React.FC<Props> = ({ id }) => {
   };
 
   return (
-    <div className="flex w-full gap-3 px-2 sm:px-5 md:px-9 py-4 sm:py-6 text-sm sm:text-md md:text-lg">
+    <div className="flex w-full gap-3 px-2 sm:px-5 md:px-9 py-4 sm:py-6 text-sm sm:text-md md:text-lg lg:text-2xl">
       <button
         className="flex justify-center items-center w-full py-3 gap-2 rounded-md bg-gradient-to-b from-button1 to-button2 shadow-md shadow-black text-white font-bold hover:bg-gradient-to-b hover:from-button3 hover:to-button4"
         onClick={() => onTabClickHandler("home")}

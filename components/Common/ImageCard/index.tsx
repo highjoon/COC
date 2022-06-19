@@ -1,12 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import { APIPlayer, APIPlayerItem } from "types/api/players";
+import { APIPlayerItem } from "types/api/players";
 import { imageUrls, pets } from "lib/utils";
+import { useRouter } from "next/router";
+import { useGetPlayerInfo } from "hooks";
+import Loading from "components/Loading";
 
 interface Props {
-  title: string;
+  title?: string;
   villiage?: string | string[];
-  data: APIPlayer;
   sort: string;
   isPet?: boolean;
   isHeroes?: boolean;
@@ -17,11 +19,18 @@ type gridColumnsType = {
 };
 
 const gridColumns: gridColumnsType = {
-  0: "grid gap-3 grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 justify-items-center",
+  0: "grid gap-3 grid-cols-3 md:grid-cols-4 lg:grid-cols-8 xl:grid-cols-10 justify-items-center",
   1: "grid gap-3 grid-cols-2 sm:grid-cols-4 justify-items-center",
 };
 
-const ImageCard: React.FC<Props> = ({ title, villiage, data, sort, isPet, isHeroes }) => {
+const ImageCard: React.FC<Props> = ({ title, villiage, sort, isPet, isHeroes }) => {
+  const router = useRouter();
+  const { id } = router.query;
+  const { data } = useGetPlayerInfo(id as string);
+
+  if (data === undefined) return <Loading />;
+  console.log(data);
+
   if (isPet && data[sort][data[sort].length - 1].name !== "Unicorn") {
     return <></>;
   }
@@ -60,5 +69,4 @@ const ImageCard: React.FC<Props> = ({ title, villiage, data, sort, isPet, isHero
     </div>
   );
 };
-
 export default ImageCard;

@@ -9,16 +9,16 @@ interface Props {
 
 const PlayerClanSection: React.FC<Props> = ({ role, clan }) => {
   return (
-    <div className="flex w-full h-full">
+    <div className="flex w-full h-full lg:border-r-3 lg:border-border3">
       {role === "member" ? (
-        <div className="flex flex-col justify-start items-center w-full h-full lg:border-r-3 lg:border-border3">
+        <div className="flex flex-col justify-start items-center w-full h-full">
           <p className="flex justify-center items-center text-2xl">{clan?.name}</p>
           <div className="w-32 h-32 sm:w-44 sm:h-44 relative">
             <Image src={clan?.badgeUrls.large as string} layout="fill" objectFit="contain" alt="clan-badge" />
           </div>
         </div>
       ) : (
-        <div className="flex items-center text-2xl">No Clan !</div>
+        <div className="flex justify-center items-center w-full h-full text-3xl">No Clan</div>
       )}
     </div>
   );
