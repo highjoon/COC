@@ -22,7 +22,7 @@ const GoldPass = () => {
   const diffHour = Math.floor((duration / (1000 * 60 * 60)) % 24);
 
   return (
-    <section className="flex justify-center items-center w-full h-full py-4 px-2">
+    <section className="flex justify-center items-center w-full h-full py-4 px-2 bg-background3/20">
       <div className="flex flex-col w-full sm:w-[450px] md:w-[550px] h-full gap-1 sm:gap-4">
         <div className="flex justify-center items-center text-xl sm:text-3xl gap-2">
           <div className="w-9 h-9 sm:w-12 sm:h-12 relative">
